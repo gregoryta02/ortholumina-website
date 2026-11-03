@@ -1,0 +1,8 @@
+# Intentionally permissive: the blanket Allow also admits AI crawlers
+# (GPTBot, ClaudeBot, PerplexityBot, Google-Extended). That is a deliberate
+# choice — an expert-services practice benefits from being citable in AI
+# answers. Do not "lock this down" without revisiting that decision.
+User-agent: *
+Allow: /
+
+Sitemap: https://ortholumina.com/sitemap-index.xml
